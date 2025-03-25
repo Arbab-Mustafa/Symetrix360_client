@@ -1,0 +1,80 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "useDefineForClassFields": true,
+    "lib": [
+      "DOM",
+      "DOM.Iterable",
+      "ESNext"
+    ],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "esModuleInterop": false,
+    "allowSyntheticDefaultImports": true,
+    "allowImportingTsExtensions": true,
+    "strict": false,
+    "forceConsistentCasingInFileNames": true,
+    "module": "ESNext",
+    "moduleResolution": "Node",
+    "resolveJsonModule": true,
+    "isolatedModules": false,
+    "noEmit": true,
+    "jsx": "react-jsx",
+    "baseUrl": ".",
+    "paths": {
+      "brain": [
+        "./src/brain"
+      ],
+      "types": [
+        "./src/brain/data-contracts.ts"
+      ],
+      "components/*": [
+        "./src/components/*"
+      ],
+      "pages/*": [
+        "./src/pages/*"
+      ],
+      "app": [
+        "./src/app"
+      ],
+      "app/auth": [
+        "./src/app/auth"
+      ],
+      "utils/*": [
+        "./src/utils/*"
+      ],
+      "@/*": [
+        "./src/*"
+      ],
+      "@/hooks/*": [
+        "./src/extensions/shadcn/hooks/*"
+      ],
+      "@/components/hooks/*": [
+        "./src/extensions/shadcn/hooks/*"
+      ],
+      "@/components/ui/*": [
+        "./src/extensions/shadcn/components/*"
+      ],
+    }
+  },
+  "include": [
+    "env.d.ts",
+    "src"
+  ],
+  "exclude": [
+    "src/brain/Brain.ts",
+    "src/brain/BrainRoute.ts",
+    "src/brain/data-contracts.ts",
+    "src/brain/http-client.ts"
+  ],
+  "references": [
+    {
+      "path": "./tsconfig.node.json"
+    }
+  ],
+  "ts-node": {
+    "compilerOptions": {
+      "module": "CommonJS"
+    }
+  }
+}
