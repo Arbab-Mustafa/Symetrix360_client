@@ -308,5 +308,8 @@
   "nodeLinker": "pnpm",
   "engines": {
     "node": "18"
+  },
+  "resolutions": {
+    "@solana/wallet-adapter-base": "0.9.24"
   }
 }
