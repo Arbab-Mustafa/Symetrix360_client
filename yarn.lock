@@ -14285,6 +14285,20 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@solana/wallet-adapter-base@npm:0.9.23, @solana/wallet-adapter-base@npm:^0.9.17, @solana/wallet-adapter-base@npm:^0.9.23":
+  version: 0.9.23
+  resolution: "@solana/wallet-adapter-base@npm:0.9.23"
+  dependencies:
+    "@solana/wallet-standard-features": "npm:^1.1.0"
+    "@wallet-standard/base": "npm:^1.0.1"
+    "@wallet-standard/features": "npm:^1.0.3"
+    eventemitter3: "npm:^4.0.7"
+  peerDependencies:
+    "@solana/web3.js": ^1.77.3
+  checksum: 10c0/976118a9a98f7ac34cdc0fcec0052da77e2d3ec1ff56e77b04aa23c0f63cc31e9ead9afdd656de2259662b215c3d618ebc64de39df35bea263f8a01618436870
+  languageName: node
+  linkType: hard
+
 "@solana/wallet-adapter-base@npm:0.9.24, @solana/wallet-adapter-base@npm:^0.9.24":
   version: 0.9.24
   resolution: "@solana/wallet-adapter-base@npm:0.9.24"
@@ -14296,20 +14310,6 @@ __metadata:
   peerDependencies:
     "@solana/web3.js": ^1.77.3
   checksum: 10c0/bcced9342d16dcee016d436718596f695f5ea220af56f66e9e51dc7bfe31517cfd33e82f7cbc9bd8b799efcbf75db961defda73a9178dde866291619500bc1a4
-  languageName: node
-  linkType: hard
-
-"@solana/wallet-adapter-base@npm:^0.9.17, @solana/wallet-adapter-base@npm:^0.9.23":
-  version: 0.9.23
-  resolution: "@solana/wallet-adapter-base@npm:0.9.23"
-  dependencies:
-    "@solana/wallet-standard-features": "npm:^1.1.0"
-    "@wallet-standard/base": "npm:^1.0.1"
-    "@wallet-standard/features": "npm:^1.0.3"
-    eventemitter3: "npm:^4.0.7"
-  peerDependencies:
-    "@solana/web3.js": ^1.77.3
-  checksum: 10c0/976118a9a98f7ac34cdc0fcec0052da77e2d3ec1ff56e77b04aa23c0f63cc31e9ead9afdd656de2259662b215c3d618ebc64de39df35bea263f8a01618436870
   languageName: node
   linkType: hard
 
@@ -42380,6 +42380,7 @@ __metadata:
     "@sentry/react": "npm:^9.10.1"
     "@sentry/types": "npm:^9.10.1"
     "@solana/spl-token": "npm:^0.4.13"
+    "@solana/wallet-adapter-base": "npm:0.9.23"
     "@solana/wallet-adapter-react": "npm:^0.15.36"
     "@solana/wallet-adapter-wallets": "npm:^0.19.33"
     "@solana/web3.js": "npm:^1.98.0"
