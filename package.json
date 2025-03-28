@@ -7,7 +7,8 @@
     "dev": "vite",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "vercel-build": "npm rebuild canvas && npm run build"
   },
   "dependencies": {
     "@11labs/react": "0.0.4",
