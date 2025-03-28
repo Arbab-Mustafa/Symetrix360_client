@@ -305,11 +305,5 @@
     "vite-tsconfig-paths": "^5.1.4"
   },
   "packageManager": "yarn@4.8.0",
-  "nodeLinker": "pnpm",
-  "engines": {
-    "node": "18"
-  },
-  "resolutions": {
-    "@solana/wallet-adapter-base": "0.9.24"
-  }
+  "nodeLinker": "pnpm"
 }
