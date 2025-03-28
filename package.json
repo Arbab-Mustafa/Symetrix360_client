@@ -42,7 +42,6 @@
     "@mui/material": "6.3.1",
     "@mysten/sui": "1.16.0",
     "@novnc/novnc": "1.6.0-beta",
-    "@openai/realtime-api-beta": "github:openai/openai-realtime-api-beta",
     "@pdfme/common": "5.3.3",
     "@pdfme/generator": "5.3.3",
     "@pdfme/schemas": "5.3.3",
@@ -305,6 +304,6 @@
     "vite": "4.4.5",
     "vite-tsconfig-paths": "4.2.2"
   },
-  "packageManager": "yarn@4.0.2",
+  "packageManager": "yarn@4.8.0",
   "nodeLinker": "pnpm"
 }
