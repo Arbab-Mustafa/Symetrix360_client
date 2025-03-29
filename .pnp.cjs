@@ -209,7 +209,6 @@ const RAW_RUNTIME_STATE =
           ["eslint-plugin-react-hooks", "virtual:f21061e77ffe9cd76c87e57de26783613c752ae761af521f55896218ea203562074cca61c3584144c78b708d0db4039dd3fe7e4fba55f9b08e674a4a9db0ce05#npm:5.2.0"],\
           ["eslint-plugin-react-refresh", "virtual:f21061e77ffe9cd76c87e57de26783613c752ae761af521f55896218ea203562074cca61c3584144c78b708d0db4039dd3fe7e4fba55f9b08e674a4a9db0ce05#npm:0.4.19"],\
           ["file-type", "npm:20.4.1"],\
-          ["firebase", "npm:11.5.0"],\
           ["framer-motion", "virtual:f21061e77ffe9cd76c87e57de26783613c752ae761af521f55896218ea203562074cca61c3584144c78b708d0db4039dd3fe7e4fba55f9b08e674a4a9db0ce05#npm:12.6.2"],\
           ["grapejs", "npm:2.1.2"],\
           ["grapesjs", "npm:0.22.6"],\
@@ -34907,7 +34906,7 @@ const RAW_RUNTIME_STATE =
         "packageDependencies": [\
           ["@types/firebase", "npm:3.2.3"],\
           ["dialog-polyfill", "npm:0.4.10"],\
-          ["firebase", "npm:11.5.0"],\
+          ["firebase", null],\
           ["firebaseui", "virtual:a53c95d78ec9940e94695e3ddd63c6c9c989198f84d1a3534a48dbf085e76863f25daddbb35a46cba999c30c8601db6eeb353739e0d938352c08de47d6f9891b#npm:6.1.0"],\
           ["material-design-lite", "npm:1.3.0"]\
         ],\
@@ -46725,7 +46724,7 @@ const RAW_RUNTIME_STATE =
         "packageDependencies": [\
           ["@types/firebase", "npm:3.2.3"],\
           ["@types/react", "npm:19.0.12"],\
-          ["firebase", "npm:11.5.0"],\
+          ["firebase", null],\
           ["react", "npm:19.1.0"],\
           ["react-firebase-hooks", "virtual:f21061e77ffe9cd76c87e57de26783613c752ae761af521f55896218ea203562074cca61c3584144c78b708d0db4039dd3fe7e4fba55f9b08e674a4a9db0ce05#npm:5.1.1"]\
         ],\
@@ -46751,7 +46750,7 @@ const RAW_RUNTIME_STATE =
         "packageDependencies": [\
           ["@types/firebase", "npm:3.2.3"],\
           ["@types/react", "npm:19.0.12"],\
-          ["firebase", "npm:11.5.0"],\
+          ["firebase", null],\
           ["firebaseui", "virtual:a53c95d78ec9940e94695e3ddd63c6c9c989198f84d1a3534a48dbf085e76863f25daddbb35a46cba999c30c8601db6eeb353739e0d938352c08de47d6f9891b#npm:6.1.0"],\
           ["react", "npm:19.1.0"],\
           ["react-firebaseui", "virtual:f21061e77ffe9cd76c87e57de26783613c752ae761af521f55896218ea203562074cca61c3584144c78b708d0db4039dd3fe7e4fba55f9b08e674a4a9db0ce05#npm:6.0.0"]\
@@ -51563,7 +51562,6 @@ const RAW_RUNTIME_STATE =
           ["eslint-plugin-react-hooks", "virtual:f21061e77ffe9cd76c87e57de26783613c752ae761af521f55896218ea203562074cca61c3584144c78b708d0db4039dd3fe7e4fba55f9b08e674a4a9db0ce05#npm:5.2.0"],\
           ["eslint-plugin-react-refresh", "virtual:f21061e77ffe9cd76c87e57de26783613c752ae761af521f55896218ea203562074cca61c3584144c78b708d0db4039dd3fe7e4fba55f9b08e674a4a9db0ce05#npm:0.4.19"],\
           ["file-type", "npm:20.4.1"],\
-          ["firebase", "npm:11.5.0"],\
           ["framer-motion", "virtual:f21061e77ffe9cd76c87e57de26783613c752ae761af521f55896218ea203562074cca61c3584144c78b708d0db4039dd3fe7e4fba55f9b08e674a4a9db0ce05#npm:12.6.2"],\
           ["grapejs", "npm:2.1.2"],\
           ["grapesjs", "npm:0.22.6"],\

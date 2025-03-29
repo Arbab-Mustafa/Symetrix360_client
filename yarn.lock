@@ -25165,7 +25165,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"firebase@npm:*, firebase@npm:^11.5.0":
+"firebase@npm:*":
   version: 11.5.0
   resolution: "firebase@npm:11.5.0"
   dependencies:
@@ -38022,7 +38022,6 @@ __metadata:
     eslint-plugin-react-hooks: "npm:^5.2.0"
     eslint-plugin-react-refresh: "npm:^0.4.19"
     file-type: "npm:^20.4.1"
-    firebase: "npm:^11.5.0"
     framer-motion: "npm:^12.6.2"
     grapejs: "npm:^2.1.2"
     grapesjs: "npm:^0.22.6"
